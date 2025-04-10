@@ -117,7 +117,7 @@ function App() {
               <a href="#"><img className="mb-[15px]" src={logo} alt="logo" /></a>
               <a className="font-jost font-normal text-[16px] text-white mt-[5px]" href="#">© ROBO.SCHOOL</a>
             </div>
-            <a data-aos="fade-left" className="font-jost font-semibold text-[30px] text-white max-sm:text-[16px]" href="tel:+78000001122">+7 800 000 11 22</a>
+            <a className="font-jost font-semibold text-[30px] text-white max-sm:text-[16px]" href="tel:+78000001122">+7 800 000 11 22</a>
           </div>
         </div>
       </footer>

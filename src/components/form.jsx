@@ -1,4 +1,5 @@
 
+
 import React, { useState } from "react";
 import axios from "axios";
 import { toast } from "react-toastify";
@@ -71,7 +72,7 @@ export default function Form() {
   };
 
   return (
-    <form onSubmit={sendMassage} className="w-[50%] max-md:w-full space-y-3" data-aos="fade-left">
+    <form onSubmit={sendMassage} className="w-[50%] max-md:w-full space-y-3">
       <input
         name="name"
         value={formData.name}
